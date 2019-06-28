@@ -214,6 +214,48 @@ html {
   line-height: 2.4rem;
 }
 
+
+.be-active__list__title {
+    padding-left: 3.2rem;
+    margin-top: -8rem;
+    font-size: 7.8rem;
+    letter-spacing: 0;
+  }
+
+  .be-active__list__text {
+    margin-bottom: 10rem;
+    padding-left: 3rem;
+    font-size: 2.7rem;
+    letter-spacing: 0;
+    line-height: 2.7rem;
+  }
+
+  .counter-block {
+    width: 11.6rem;
+    height: 11.6rem;
+    margin-bottom: 2.8rem;
+  }
+
+  .counter {
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+  }
+
+  .be-active__list__item2 .be-active__list__title,
+  .be-active__list__item3 .be-active__list__title {
+    margin-top: -9.1rem;
+  }
+
+  .be-active__list__item2 .be-active__list__text {
+    margin-bottom: 10.8rem; 
+  }
+     
+  .be-active__list__item3 .be-active__list__text {
+    font-size: 2.65rem;
+    line-height: 2.8rem;
+    padding-bottom: 1.2rem;
+  }
+
 @media (min-width: 641px) and (max-width: 960px) {
   
   .diploma__site {
