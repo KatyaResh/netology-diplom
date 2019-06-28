@@ -103,120 +103,115 @@ html {
 
 /*Начало блоков Athlets и Players*/
 
-.athlets, .players {
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-  }
-
 .athlets__title, .players__title {
-  padding-top: 5.8rem;
-  padding-left: 29rem;
-  font-size: 8rem;
+  font-weight: 700;
+  font-size: 5rem;
+  color: #e7e7e7;
+  text-transform: uppercase;
+  margin: 0;
+  padding-top: 1rem;
+  padding-left: 2rem;
 }
 
 .athlets__image {
-  position: absolute;
-  margin-left: -23rem;
-  margin-top: 9.5rem; 
-}
-
-.athlets__list__item {
-  padding-left: 27rem;
+  padding-left: 7rem;
 }
 
 .athlets__list__num, .players__list__num {
-  margin-bottom: 0.5rem;
-  font-size: 2rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+  border-bottom: 4px solid #5e42b0;
+  display: inline-block;
+  border-radius: 2px;
+  margin-right: 0.5rem;
+  margin-left: 2rem;
+  vertical-align: text-bottom;
 }
 
 .athlets__list__title, .players__list__title {
-  padding-top: 0;
-  font-size: 3rem;
-  letter-spacing: 0.3rem; 
+  color: #c1c1c1;
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 0;
+  padding-top: 0.3rem;
 }
 
 .athlets__list__text, .players__list__text {
-  margin-top: 2rem;
-  font-size: 1.7rem;
-  font-weight: 300;
-  line-height: 2.3rem;
+  font-size: 1.5rem;
+  line-height: 1.9rem;
+  letter-spacing: 0.08rem;
+  text-align: left;
+  padding: 0 2rem 9.7rem;
+  margin-bottom: 0;
+}
+
+.athlets__list__item3 .athlets__list__text,
+.players__list__item3 .players__list__text {
+  color: #ffffff;
+  padding-bottom: 5.2rem;
+  margin-bottom: 0;
 }
 
 .athlets__list__item1 {
-  padding-top: 3rem;
+  padding-top: 1.5rem;
 }
 
-.athlets__list__item1 .athlets__list__text {
-  padding-bottom: 3.7rem;
-}
- 
 .athlets__list__item2 {
-  padding-top: 3rem;
+  background-color: #f6f4fa;
 }
 
 .athlets__list__item2 .athlets__list__text {
-  padding-bottom: 3.1rem;
-  line-height: 2.8rem;
+  padding-bottom: 5.1rem;
 }
 
-.athlets__list__item2 .athlets__list__num {
+.athlets__list__item3 {
+  background-color: #5e42b0;
+  padding-top: 4.8rem;
   margin-bottom: 0;
 }
- 
-.athlets__list__item3 {
-  padding-top: 3.5rem;
-}
 
-.athlets__list__item3 .athlets__list__text {
-  padding-bottom: 3.7rem;
-  letter-spacing: 0.05rem;
-}
-
-.players__image {
-  position: absolute;
-  margin-top: 4rem; 
-  right: 0;  
+.athlets__list__item3 .athlets__list__num {
+  border-bottom: 4px solid #ffffff;
 }
 
 .players__title__position {
-  padding-left: 3rem;
-  margin-bottom: 0;
+  padding-top: 0.5rem;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
 }
 
-.players__list {
-  margin-top: 3rem;
-}
-
-.players__list__item {
-  padding-right: 27rem;
+.players__image {
   padding-left: 1rem;
 }
 
-.players__list__item1 .players__list__text {
-  padding-bottom: 2.3rem;
+.players__list {
+  margin-top: 4rem;
 }
 
 .players__list__item2 {
-  padding-top: 3.3rem;
+  background-color: #f5f6f7;
 }
 
-.players__list__item2 .players__list__text {
-  padding-bottom: 3.5rem;
-  margin-top: 1.7rem;
-  line-height: 2.6rem;
+.players__list__item_2 .players__list__text {
+  letter-spacing: 0.07rem;
+  padding-bottom: 5.2rem;
 }
 
 .players__list__item3 {
-  padding-top: 3.4rem;
+  background-color: #0a0e34;
+  padding-top: 4.4rem;
+}
+
+.players__list__item3 .players__list__num {
+  color: #684fb3;
+  border-bottom: 4px solid #ffffff;
+  border-radius: 2px;
 }
 
 .players__list__item3 .players__list__text {
-  padding-bottom: 3.7rem;
-  letter-spacing: 0.1rem;
-  font-size: 1.85rem;
-  line-height: 2.4rem;
+  padding-bottom: 5.5rem;
 }
 
 /*Конец блоков Athlets и Players*/
