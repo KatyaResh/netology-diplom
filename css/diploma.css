@@ -224,46 +224,64 @@ html {
 
 /*Начало блока Be active*/
 
+.be-active__list__img {
+  max-width: 100%;
+  font-size: 0;
+}
+
+.counter-block {
+  width: 7rem;
+  height: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5e42b0;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.counter-block .counter {
+  border-bottom-color: #8f7bc8;
+  border-radius: 2px;
+  color: #ffffff;
+}
+
+.counter {
+  font-size: 1.5rem;
+  color: #000000;
+  border-bottom: 4px solid #5e42b0;
+  vertical-align: super;
+}
+
 .be-active__list__title {
-    padding-left: 3.2rem;
-    margin-top: -8rem;
-    font-size: 7.8rem;
-    letter-spacing: 0;
-  }
+  margin-top: -6rem;
+  margin-bottom: 0;
+  padding-left: 2rem;
+}
 
-  .be-active__list__text {
-    margin-bottom: 10rem;
-    padding-left: 3rem;
-    font-size: 2.7rem;
-    letter-spacing: 0;
-    line-height: 2.7rem;
-  }
+.be-active__list__title {
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #c1c1c1;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
 
-  .counter-block {
-    width: 11.6rem;
-    height: 11.6rem;
-    margin-bottom: 2.8rem;
-  }
+.be-active__list__text {
+  font-size: 1.7rem;
+  margin-bottom: 7.8rem;
+  margin-top: 0;
+  padding-left: 2rem;
+  padding-right: 2.5rem;
+  padding-top: 1.2rem;
+  letter-spacing: 0.03rem;
+  line-height: 2.1rem;
+}
 
-  .counter {
-    margin-bottom: 1rem;
-    font-size: 2.5rem;
-  }
-
-  .be-active__list__item2 .be-active__list__title,
-  .be-active__list__item3 .be-active__list__title {
-    margin-top: -9.1rem;
-  }
-
-  .be-active__list__item2 .be-active__list__text {
-    margin-bottom: 10.8rem; 
-  }
-     
-  .be-active__list__item3 .be-active__list__text {
-    font-size: 2.65rem;
-    line-height: 2.8rem;
-    padding-bottom: 1.2rem;
-  }
+.be-active__list__text_position {
+  margin-bottom: 0;
+  padding-bottom: 7rem;
+}
 
 /*Конец блока Be active*/
 
