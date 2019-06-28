@@ -98,6 +98,122 @@ html {
   padding-top: 0.75rem;
 }
 
+.athlets, .players {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+.athlets__title, .players__title {
+  padding-top: 5.8rem;
+  padding-left: 29rem;
+  font-size: 8rem;
+}
+
+.athlets__image {
+  position: absolute;
+  margin-left: -23rem;
+  margin-top: 9.5rem; 
+}
+
+.athlets__list__item {
+  padding-left: 27rem;
+}
+
+.athlets__list__num, .players__list__num {
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+}
+
+.athlets__list__title, .players__list__title {
+  padding-top: 0;
+  font-size: 3rem;
+  letter-spacing: 0.3rem; 
+}
+
+.athlets__list__text, .players__list__text {
+  margin-top: 2rem;
+  font-size: 1.7rem;
+  font-weight: 300;
+  line-height: 2.3rem;
+}
+
+.athlets__list__item1 {
+  padding-top: 3rem;
+}
+
+.athlets__list__item1 .athlets__list__text {
+  padding-bottom: 3.7rem;
+}
+ 
+.athlets__list__item2 {
+  padding-top: 3rem;
+}
+
+.athlets__list__item2 .athlets__list__text {
+  padding-bottom: 3.1rem;
+  line-height: 2.8rem;
+}
+
+.athlets__list__item2 .athlets__list__num {
+  margin-bottom: 0;
+}
+ 
+.athlets__list__item3 {
+  padding-top: 3.5rem;
+}
+
+.athlets__list__item3 .athlets__list__text {
+  padding-bottom: 3.7rem;
+  letter-spacing: 0.05rem;
+}
+
+.players__image {
+  position: absolute;
+  margin-top: 4rem; 
+  right: 0;  
+}
+
+.players__title__position {
+  padding-left: 3rem;
+  margin-bottom: 0;
+}
+
+.players__list {
+  margin-top: 3rem;
+}
+
+.players__list__item {
+  padding-right: 27rem;
+  padding-left: 1rem;
+}
+
+.players__list__item1 .players__list__text {
+  padding-bottom: 2.3rem;
+}
+
+.players__list__item2 {
+  padding-top: 3.3rem;
+}
+
+.players__list__item2 .players__list__text {
+  padding-bottom: 3.5rem;
+  margin-top: 1.7rem;
+  line-height: 2.6rem;
+}
+
+.players__list__item3 {
+  padding-top: 3.4rem;
+}
+
+.players__list__item3 .players__list__text {
+  padding-bottom: 3.7rem;
+  letter-spacing: 0.1rem;
+  font-size: 1.85rem;
+  line-height: 2.4rem;
+}
+
 @media (min-width: 641px) and (max-width: 960px) {
   
   .diploma__site {
