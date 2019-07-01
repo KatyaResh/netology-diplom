@@ -589,7 +589,7 @@ html {
   .footer {
     display: flex;
     padding: 10rem 0 0.5rem;
-    background: url(../img/footer-768.jpg);
+    background: url(/images/footer-768.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -663,7 +663,7 @@ html {
 
   .header {
     padding-bottom: 10.8rem;
-    background: url(../img/header-desktop.jpg);
+    background: url(/images/header-desktop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -962,7 +962,7 @@ html {
   .footer {
     display: flex;
     padding: 5.21vw 0 0.5rem;
-    background: url(../img/footer-desktop.jpg);
+    background: url(/images/footer-desktop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
