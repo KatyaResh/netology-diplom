@@ -281,8 +281,6 @@ html {
 
 
 /*Начало футера*/
-
-/*footer start*/
   
   .footer {
     display: flex;
@@ -342,13 +340,14 @@ html {
 
 
 @media (min-width: 641px) and (max-width: 960px) {
-  
+
+/*Начало хедера*/
+
   .diploma__site {
     width:102%;
   }
 
-  .header,
-  .footer {
+  .header, .footer {
     flex-flow: wrap;
     justify-content: space-between;
     padding-right: 5vw;
@@ -356,7 +355,7 @@ html {
 
   .header {
     padding-bottom: 8.8rem;
-    background: url(images/football_767.jpg);
+    background: url(/images/header-768.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -371,8 +370,7 @@ html {
     padding-left: 1rem;
   }
 
-  .header__title,
-  .header__subtitle {
+  .header__title, .header__subtitle {
     font-size: 6.3rem;
   }
 
@@ -408,7 +406,7 @@ html {
     padding-top: 1.4rem;
   }
   
-  .button__google .header__button__text {
+  .button__google .button__text{
     padding-top: 0.3rem;
   }
 
@@ -419,7 +417,322 @@ html {
     margin-top: 0;
   }
 
+  /*Конец хедера*/
+
+  /*Начало блоков athlets, players*/
+
+  .athlets, .players {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .athlets__title, .players__title {
+    padding-top: 5.8rem;
+    padding-left: 29rem;
+    font-size: 8rem;
+  }
+
+  .athlets__image {
+    position: absolute;
+    margin-left: -23rem;
+    margin-top: 9.5rem; 
+  }
+
+  .athlets__list__item {
+    padding-left: 27rem;
+  }
+
+  .athlets__list__num, .players__list__num {
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+  }
+
+  .athlets__list__title, .players__list__title {
+    padding-top: 0;
+    font-size: 3rem;
+    letter-spacing: 0.3rem; 
+  }
+
+  .athlets__list__text, .players__list__text {
+    margin-top: 2rem;
+    font-size: 1.7rem;
+    font-weight: 300;
+    line-height: 2.3rem;
+  }
+
+  .athlets__list__item1 {
+    padding-top: 3rem;
+  }
+
+  .athlets__list__item1 .athlets__list__text {
+    padding-bottom: 3.7rem;
+  }
+ 
+  .athlets__list__item2 {
+    padding-top: 3rem;
+  }
+
+  .athlets__list__item2 .athlets__list__text {
+    padding-bottom: 3.1rem;
+    line-height: 2.8rem;
+  }
+
+  .athlets__list__item2 .athlets__list__num {
+    margin-bottom: 0;
+  }
+ 
+  .athlets__list__item3 {
+    padding-top: 3.5rem;
+  }
+
+  .athlets__list__item3 .athlets__list__text {
+    padding-bottom: 3.7rem;
+    letter-spacing: 0.05rem;
+  }
+
+  .players__image {
+    position: absolute;
+    margin-top: 4rem; 
+    right: 0;  
+  }
+
+  .players__title__position {
+    padding-left: 3rem;
+    margin-bottom: 0;
+  }
+
+  .players__list {
+    margin-top: 3rem;
+  }
+
+  .players__list__item {
+    padding-right: 27rem;
+    padding-left: 1rem;
+  }
+
+  .players__list__item1 .players__list__text {
+    padding-bottom: 2.3rem;
+  }
+
+  .players__list__item2 {
+    padding-top: 3.3rem;
+  }
+
+  .players__list__item2 .players__list__text {
+    padding-bottom: 3.5rem;
+    margin-top: 1.7rem;
+    line-height: 2.6rem;
+  }
+
+  .players__list__item3 {
+    padding-top: 3.4rem;
+  }
+
+  .players__list__item3 .players__list__text {
+    padding-bottom: 3.7rem;
+    letter-spacing: 0.1rem;
+    font-size: 1.85rem;
+    line-height: 2.4rem;
+  }
+
+  /*Конец блоков athlets, players*/
   
+  /*Начало блока be active*/
+
+  .active__list__title {
+    padding-left: 3.2rem;
+    margin-top: -8rem;
+    font-size: 7.8rem;
+    letter-spacing: 0;
+  }
+
+  .active__list__text {
+    margin-bottom: 10rem;
+    padding-left: 3rem;
+    font-size: 2.7rem;
+    letter-spacing: 0;
+    line-height: 2.7rem;
+  }
+
+  .counter-block {
+    width: 11.6rem;
+    height: 11.6rem;
+    margin-bottom: 2.8rem;
+  }
+
+  .counter {
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+  }
+
+  .active__list__item2 .active__list__title,
+  .active__list__item3 .active__list__title {
+    margin-top: -9.1rem;
+  }
+
+  .active__list__item3 .active__list__text {
+    margin-bottom: 10.8rem; 
+  }
+     
+  .active__list__item3 .active__list__text {
+    font-size: 2.65rem;
+    line-height: 2.8rem;
+    padding-bottom: 1.2rem;
+  }
+
+  /*Конец блока be active*/
+
+  /*Начало блока footer*/
+  
+  .footer {
+    display: flex;
+    padding: 10rem 0 0.5rem;
+    background: url(../img/footer-768.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .footer__icon {
+    width: 13.2rem;
+    height: 13.5rem;
+    margin-top: 2.6rem;
+    margin-left: 32rem;
+    border-radius: 30px;
+  }
+
+  .footer__icon svg {
+    width: 9.5rem;
+    height: 10.5rem;   
+  }
+
+  .footer__title {
+    margin-top: 6rem;
+    margin-left: 2.5rem;
+    font-size: 7.7rem;
+    letter-spacing: 0.7rem;
+  }
+
+  .footer__subtitle {
+    margin-bottom: 28.4rem;
+    font-size: 3.5rem;
+    line-height: 1;
+    letter-spacing: -0.03rem;
+    margin-left: 6rem;
+  }
+
+  .footer button {
+    width: 41%; 
+  }
+
+  .footer .button__apple {  
+    margin-left: 6rem;
+  }
+
+  .footer .button__google {
+    margin-right: 5.5rem;  
+  }
+
+  .footer__logo {
+    width: 21rem;
+    height: 4.5rem;
+    margin: 5.5rem auto 2rem 28rem;
+  }
+
+  /*Конец footer*/
+
+}
+
+@media (min-width: 961px) {
+ 
+  /*Начало блока header*/
+
+  .diploma__site {
+    width:102%;
+    max-width: 1920px;
+    margin: auto;
+    overflow-x: hidden;
+  }
+
+  .header, .footer {
+    flex-flow: wrap;
+    justify-content: center;
+    padding-right: 5vw;
+  }
+
+  .header {
+    padding-bottom: 10.8rem;
+    background: url(../img/header-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .header__logo {
+    width: 100%;
+    padding-right: 4rem;
+  }
+
+  .header__logo__icon {
+    width: 20rem;
+    height: 7.5rem;
+  }
+
+  .header__title, .header__subtitle {
+    font-size: 9.3rem;
+  }
+
+  .header__title {
+    width: 100%;
+    padding-top: 8.8vw;
+    margin-bottom: 3.6rem;
+    margin-left: 60px;
+    letter-spacing: 0.35rem
+  }
+    
+  .header__subtitle {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 5.5vw;
+    margin-bottom: 22rem;
+    text-align: right;
+    letter-spacing: 0.3rem;
+    line-height: 7.5rem;
+  }
+
+  .header__button {
+    width: 309px;
+    padding: 2rem 6rem 2rem 6rem;
+    border-radius: 40px;
+    font-size: 1.4rem;
+  }
+ 
+  .header__button + .header__button {
+    margin-top: 0; 
+    margin-left: 5rem;
+  }
+
+  .button__apple {
+    margin-left: -4rem;
+    padding-left: 3.8rem;
+    padding-top: 1.4rem;
+  }
+  
+  .button__google .button__text{
+    padding-top: 0.3rem;
+  }
+
+  .button__icon {
+    width: 4rem;
+    height: 4rem;
+    margin-right: 2.6rem;
+    margin-top: 0;
+  }
+
+  /*Конец блока header*/
+
+  /*Начало блоков athlets, players*/
+
   .athlets, .players {
     position: relative;
     display: flex;
@@ -512,7 +825,7 @@ html {
     right: calc(50% - 829px);
   }
 
-  .players__title_position {
+  .players__title__position {
     padding-left: 9.6vw;
     margin-bottom: 0;
   }
@@ -552,6 +865,10 @@ html {
     line-height: 2.4rem;
   }
 
+  /*Конец блоков athlets, players*/
+  
+  
+  /*Начало блоков be active,find contact,work it*/
 
   .be-active__list__pic {
     width: 50%;
@@ -608,7 +925,7 @@ html {
     top: 33.2%;
   }
 
-  .be-active__list__item2 .be-active__list__title {
+  .be-active__list__item2 .active__list__title {
     margin-top: -1.72vw;
     margin-left: -46.25vw;
   }
@@ -637,4 +954,66 @@ html {
   .be-active__list__item3 .counter-block {
     margin-left: -11.2vw
   }
+
+  /*Конец блоков be active, find contact, work it*/
+
+  /*Начало футера*/
+  
+  .footer {
+    display: flex;
+    padding: 5.21vw 0 0.5rem;
+    background: url(../img/footer-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .footer__icon {
+    width: 13.2rem;
+    height: 13.5rem;
+    margin: 6.7vw 0 0 0;
+    border-radius: 30px;
+  }
+
+  .footer__icon svg {
+    width: 9.5rem;
+    height: 10.5rem;   
+  }
+
+  .footer__title {
+    margin-top: 6.46vw;
+    margin-left: 1vw;
+    font-size: 7.7rem;
+    letter-spacing: 0.7rem
+  }
+
+  .footer__subtitle {
+    width: 100%;
+    margin-bottom: 8.54vw;
+    margin-top: -1.82vw;
+    font-size: 2.9rem;
+    line-height: 1;
+    letter-spacing: -0.03rem;   
+  }
+
+  .footer button {
+    width: 309.6px; 
+  }
+
+  .footer .button__apple {  
+    margin-left: -1vw;
+  }
+
+  .footer .button__google {
+    margin-top: 0;
+    margin-left: 5rem;
+  }
+
+  .footer__logo {
+    width: 21rem;
+    height: 4.5rem;
+    margin: 13% 28% 4% 28%;
+  }
+
+  /*Конец футера*/
+
 }
