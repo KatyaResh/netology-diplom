@@ -282,7 +282,61 @@ html {
 
 /*Начало футера*/
 
+/*footer start*/
+  
+  .footer {
+    display: flex;
+    padding: 10rem 0 0.5rem;
+    background: url(../img/footer-768.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
+  .footer__icon {
+    width: 13.2rem;
+    height: 13.5rem;
+    margin-top: 2.6rem;
+    margin-left: 32rem;
+    border-radius: 30px;
+  }
+
+  .footer__icon svg {
+    width: 9.5rem;
+    height: 10.5rem;   
+  }
+
+  .footer__title {
+    margin-top: 6rem;
+    margin-left: 2.5rem;
+    font-size: 7.7rem;
+    letter-spacing: 0.7rem;
+  }
+
+  .footer__subtitle {
+    margin-bottom: 28.4rem;
+    font-size: 3.5rem;
+    line-height: 1;
+    letter-spacing: -0.03rem;
+    margin-left: 6rem;
+  }
+
+  .footer button {
+    width: 41%; 
+  }
+
+  .footer .button__apple {  
+    margin-left: 6rem;
+  }
+
+  .footer .button__google {
+    margin-right: 5.5rem;  
+  }
+
+  .footer__logo {
+    width: 21rem;
+    height: 4.5rem;
+    margin: 5.5rem auto 2rem 28rem;
+  }
 
 /*Конец футера*/
 
