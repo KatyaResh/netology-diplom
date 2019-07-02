@@ -4,6 +4,11 @@ html {
   font-size: 62.5%;
 }
 
+header, section, footer {
+  box-sizing: border-box;
+  position: relative;
+}
+
 .diploma__site {
   width: 100%;
   margin: 0; 
@@ -22,7 +27,7 @@ html {
   padding-bottom: 8.6rem;
   padding-right: 6.25vw;
   padding-left: 6.25vw;
-  background: url(../img/header-320.jpg);
+  background: url(images/header_320.png);
   background-color: rgb(10, 14, 52);
   background-repeat: no-repeat;
   background-position: center;
@@ -355,7 +360,7 @@ html {
 
   .header {
     padding-bottom: 8.8rem;
-    background: url(/images/header-768.jpg);
+    background: url(images/header_768.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -663,7 +668,7 @@ html {
 
   .header {
     padding-bottom: 10.8rem;
-    background: url(/images/header-desktop.jpg);
+    background: url(images/header_desktop.png);
     background-repeat: no-repeat;
     background-size: cover;
   }
