@@ -360,7 +360,7 @@ header, section, footer {
 
   .header {
     padding-bottom: 8.8rem;
-    background: url(images/header_768.jpg);
+    background-image: url(images/header_768.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -668,7 +668,7 @@ header, section, footer {
 
   .header {
     padding-bottom: 10.8rem;
-    background: url(images/header_desktop.png);
+    background-image: url(images/header_desktop.png);
     background-repeat: no-repeat;
     background-size: cover;
   }
