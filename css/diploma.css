@@ -290,7 +290,8 @@ header, section, footer {
   .footer {
     display: flex;
     padding: 10rem 0 0.5rem;
-    background: url(../images/footer_320.jpg);
+    background-color: rgb(10, 14, 52);
+    background-image: url(../images/footer_320.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -594,7 +595,7 @@ header, section, footer {
   .footer {
     display: flex;
     padding: 10rem 0 0.5rem;
-    background: url(../images/footer_768.jpg);
+    background-image: url(../images/footer_768.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -967,7 +968,7 @@ header, section, footer {
   .footer {
     display: flex;
     padding: 5.21vw 0 0.5rem;
-    background: url(../images/footer_desktop.jpg);
+    background-image: url(../images/footer_desktop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
