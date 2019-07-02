@@ -256,9 +256,6 @@ header, section, footer {
   margin-top: -6rem;
   margin-bottom: 0;
   padding-left: 2rem;
-}
-
-.be-active__list__title {
   font-size: 2.8rem;
   font-weight: bold;
   color: #c1c1c1;
@@ -288,8 +285,6 @@ header, section, footer {
 /*Начало футера*/
   
   .footer {
-    display: flex;
-    padding: 10rem 0 0.5rem;
     background-color: rgb(10, 14, 52);
     background-image: url(../images/footer_320.jpg);
     background-repeat: no-repeat;
@@ -312,14 +307,15 @@ header, section, footer {
     transition: all 0.5s ease-in-out;
   }
 
-  .footer__icon:hover {
+  .footer__icon::hover {
     background-color: #501be9;
     transition: none;
   }
 
   .footer__icon svg {
-    width: 9.5rem;
-    height: 10.5rem;   
+    width: 5.5rem;
+    height: 4.5rem;
+    stroke: #ffffff; 
   }
 
   .footer__title {
@@ -342,18 +338,17 @@ header, section, footer {
     width: 41%; 
   }
 
-  .footer .button__apple {  
-    margin-left: 6rem;
-  }
-
-  .footer .button__google {
-    margin-right: 5.5rem;  
-  }
-
   .footer__logo {
-    width: 21rem;
-    height: 4.5rem;
-    margin: 5.5rem auto 2rem 28rem;
+    display: block;
+    width: 13.5rem;
+    height: 3.5rem;
+    margin: 8.5rem auto 0 auto;
+    padding-bottom: 1rem;
+  }
+
+  .footer__logo svg {
+    fill: #ffffff;
+    stroke: #ffffff;
   }
 
 /*Конец футера*/
@@ -888,7 +883,7 @@ header, section, footer {
   /*Конец блоков athlets, players*/
   
   
-  /*Начало блоков be active,find contact,work it*/
+  /*Начало блока be active*/
 
   .be-active__list__pic {
     width: 50%;
@@ -975,7 +970,7 @@ header, section, footer {
     margin-left: -11.2vw
   }
 
-  /*Конец блоков be active, find contact, work it*/
+  /*Конец блока be active*/
 
   /*Начало футера*/
   
