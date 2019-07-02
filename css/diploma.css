@@ -27,7 +27,7 @@ header, section, footer {
   padding-bottom: 8.6rem;
   padding-right: 6.25vw;
   padding-left: 6.25vw;
-  background: url(images/header_320.png);
+  background-image: url(images/header_320.png);
   background-color: rgb(10, 14, 52);
   background-repeat: no-repeat;
   background-position: center;
