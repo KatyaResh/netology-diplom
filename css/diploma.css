@@ -27,8 +27,8 @@ header, section, footer {
   padding-bottom: 8.6rem;
   padding-right: 6.25vw;
   padding-left: 6.25vw;
-  background-image: url(images/header_320.png);
   background-color: rgb(10, 14, 52);
+  background-image: url(../images/header_320.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -290,7 +290,7 @@ header, section, footer {
   .footer {
     display: flex;
     padding: 10rem 0 0.5rem;
-    background: url(../img/footer-768.jpg);
+    background: url(../images/footer_320.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -360,7 +360,7 @@ header, section, footer {
 
   .header {
     padding-bottom: 8.8rem;
-    background-image: url(images/header_768.jpg);
+    background-image: url(../images/header_768.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -594,7 +594,7 @@ header, section, footer {
   .footer {
     display: flex;
     padding: 10rem 0 0.5rem;
-    background: url(/images/footer-768.jpg);
+    background: url(../images/footer_768.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -668,7 +668,7 @@ header, section, footer {
 
   .header {
     padding-bottom: 10.8rem;
-    background-image: url(images/header_desktop.png);
+    background-image: url(../images/header_desktop.png);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -967,7 +967,7 @@ header, section, footer {
   .footer {
     display: flex;
     padding: 5.21vw 0 0.5rem;
-    background: url(/images/footer-desktop.jpg);
+    background: url(../images/footer_desktop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
