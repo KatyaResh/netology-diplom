@@ -940,10 +940,10 @@ header, section, footer {
     top: 33.2%;
   }
 
-  .be-active__list__item2 .active__list__title {
+  /*.be-active__list__item2 .active__list__title {
     margin-top: -1.72vw;
     margin-left: -46.25vw;
-  }
+  }*/
 
   .be-active__list__item2 .be-active__list__text {
     padding: 20.4vw 6.4vw 0 9.5vw;
