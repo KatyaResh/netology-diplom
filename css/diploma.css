@@ -960,7 +960,7 @@ header, section, footer {
   }
 
   .be-active__list__item2 .be-active__list__title{
-    right: 46%;
+    /*right: 46%;*/
     top: 33.2%;
   }
 
