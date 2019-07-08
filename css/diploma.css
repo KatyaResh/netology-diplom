@@ -315,6 +315,13 @@ header, section, footer {
     
   }
 
+  .footer__head {
+    display: flex;
+    flex-wrap: wrap;
+    width: 54rem;
+    margin: 0 auto 9rem;
+  }
+
   .footer__icon {
     display: block;
     box-sizing: border-box;
