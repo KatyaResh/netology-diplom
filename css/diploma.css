@@ -745,6 +745,11 @@ header, section, footer {
     line-height: 7.5rem;
     margin-bottom: 22rem;
   }
+  
+  .header__buttons {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
   .header__button {
     width: 309px;
