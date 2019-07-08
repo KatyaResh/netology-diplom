@@ -119,13 +119,16 @@ header, section, footer {
 
 /*Начало блоков Athlets и Players*/
 
+.athlets, .players {
+  padding-top: 1rem;
+}
+
 .athlets__title, .players__title {
   font-weight: 700;
   font-size: 5rem;
   color: #e7e7e7;
   text-transform: uppercase;
   margin: 0;
-  padding-top: 1rem;
   padding-left: 2rem;
 }
 
@@ -452,10 +455,10 @@ header, section, footer {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    padding-top: 5.8rem;
   }
 
   .athlets__title, .players__title {
-    padding-top: 5.8rem;
     padding-left: 29rem;
     font-size: 8rem;
   }
@@ -778,10 +781,10 @@ header, section, footer {
     flex-wrap: wrap;
     flex-direction: column;
     overflow: hidden;
+    padding-top: 8.8rem;
   }
 
   .athlets__title, .players__title {
-    padding-top: 8.8rem;
     font-size: 8rem;
   }
 
