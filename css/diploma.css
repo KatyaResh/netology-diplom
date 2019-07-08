@@ -52,14 +52,22 @@ header, section, footer {
 }
 
 .header__title {
-  margin-top: 12.5rem;
-  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: normal;
+  font-size: 90px;
+  color: white;
+  text-transform: uppercase;
+  line-height: 1;
+  margin: 296px 3.1vw 221px 0.8vw;
 }
 
-.header__subtitle {
-  margin-top: 0;
-  margin-bottom: 8rem;
-  margin-left: 4.5rem;
+.header__title span {
+  display: block;
+  align-self: flex-end;
+  font-weight: bold;
+  margin-left: 10vw;
 }
 
 .header__button {
