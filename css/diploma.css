@@ -318,8 +318,6 @@ header, section, footer {
   .footer__head {
     display: flex;
     flex-wrap: wrap;
-    width: 54rem;
-    margin: 0 auto 9rem;
   }
 
   .footer__icon {
@@ -1017,6 +1015,13 @@ header, section, footer {
     background-image: url(../images/footer_desktop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+  }
+  
+  .footer__head {
+    display: flex;
+    flex-wrap: wrap;
+    width: 54rem;
+    margin: 0 auto 9rem;
   }
 
   .footer__icon {
