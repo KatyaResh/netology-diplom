@@ -73,6 +73,11 @@ header, section, footer {
   margin-left: 10vw;
 }
 
+.header_buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .header__button {
   display: flex;
   width: 100%;
