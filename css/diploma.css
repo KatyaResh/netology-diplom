@@ -719,18 +719,17 @@ header, section, footer {
   }
   
   .header__title {
-    width: 100%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-size: 8.3rem;
-    color: white;
+    font-size: 8rem;
+    color: #ffffff;
     text-transform: uppercase;
-    letter-spacing: 0.35rem;
+    letter-spacing: 0.3rem;
     line-height: 1;
     padding-top: 8.8vw;
-    margin-bottom: 3.6rem;
-    margin-left: 60px;
+    margin: 0 auto 3.6rem;
   }
 
   .header__title span {
@@ -739,13 +738,11 @@ header, section, footer {
   }
 
   .header__title span span {
-    width: 100%;
+    width: 90%;
     align-self: flex-end;
     text-align: right;
     letter-spacing: 0.3rem;
     line-height: 7.5rem;
-    margin-left: 10vw;
-    margin-right: 5.5vw;
     margin-bottom: 22rem;
   }
 
