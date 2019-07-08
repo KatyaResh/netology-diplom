@@ -961,22 +961,26 @@ header, section, footer {
 
   .be-active__list__item2 .be-active__list__title{
     /*right: 46%;*/
-    top: 33.2%;
+    margin-top: 6rem;
+    margin-left: 0rem;
   }
 
-  .be-active__list__item2 .active__list__title {
+  /*.be-active__list__item2 .active__list__title {
     margin-top: -1.72vw;
-    /*margin-left: -46.25vw;*/
+    margin-left: -46.25vw;
     margin-left: 9.5vw;
-  }
+  }*/
 
   .be-active__list__item2 .be-active__list__text {
     padding: 20.4vw 6.4vw 0 9.5vw;
   }
 
   .be-active__list__item2 .counter-block {
-    margin-left: 35.57vw;
-    margin-bottom: -6.93vw
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /*margin-left: 35.57vw;
+    margin-bottom: -6.93vw*/
   }
      
   .be-active__list__item3 .be-active__list__text {
