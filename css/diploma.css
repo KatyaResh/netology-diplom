@@ -959,11 +959,14 @@ header, section, footer {
     flex-direction: row-reverse;
   }
 
-  .be-active__list__item2 .be-active__list__title{
-    right: 46%;
+  .be-active__list__item2 .be-active__list__title {
+    display: flex;
+    flex-direction: row-reverse;
+    left: 0%;
+    /*right: 46%;
+    margin-left: -46.25vw;*/
     margin-top: -1.72vw;
-    margin-left: -46.25vw;
-    margin-left: 9.5vw;
+    margin-left: 3vw;
   }
 
   .be-active__list__item2 .be-active__list__text {
@@ -971,11 +974,9 @@ header, section, footer {
   }
 
   .be-active__list__item2 .counter-block {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    /*margin-left: 35.57vw;
-    margin-bottom: -6.93vw*/
+    width: 8.75vw;
+    height: 8.07vw;
+    margin-left: 3vw;
   }
      
   .be-active__list__item3 .be-active__list__text {
