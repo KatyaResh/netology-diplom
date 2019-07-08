@@ -749,6 +749,7 @@ header, section, footer {
   .header__buttons {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
 
   .header__button {
@@ -1022,12 +1023,15 @@ header, section, footer {
   .footer__head {
     display: flex;
     flex-wrap: wrap;
-    width: 54rem;
-    margin: 0 auto 9rem;
+    justify-content: center;
   }
   
   .footer__head__icon {
-    margin-left: auto; 
+    display: flex;
+    align-items: center;
+    float: left;
+    box-sizing: border-box;
+    margin-left: 2.37rem; 
   }
 
   .footer__icon {
@@ -1040,6 +1044,13 @@ header, section, footer {
   .footer__icon svg {
     width: 9.5rem;
     height: 10.5rem;   
+  }
+  
+  .footer__text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2vw;
+    text-align: left;
   }
 
   .footer__title {
