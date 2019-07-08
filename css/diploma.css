@@ -307,6 +307,7 @@ header, section, footer {
     text-align: center;
     text-transform: uppercase;
     padding: 10rem 6.25vw 0.5rem;
+    
   }
 
   .footer__icon {
@@ -706,17 +707,13 @@ header, section, footer {
     width: 20rem;
     height: 7.5rem;
   }
-
-  .header__title, .header__subtitle {
-    font-size: 9.3rem;
-  }
   
   .header__title {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-size: 9.3rem;
+    font-size: 5rem;
     color: white;
     text-transform: uppercase;
     letter-spacing: 0.35rem;
