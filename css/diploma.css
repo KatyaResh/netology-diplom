@@ -73,7 +73,7 @@ header, section, footer {
   margin-left: 10vw;
 }
 
-.header_buttons {
+.header__buttons {
   display: flex;
   flex-wrap: wrap;
 }
