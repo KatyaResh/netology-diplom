@@ -960,16 +960,11 @@ header, section, footer {
   }
 
   .be-active__list__item2 .be-active__list__title{
-    /*right: 46%;*/
-    margin-top: 8rem;
-    margin-left: 3rem;
-  }
-
-  /*.be-active__list__item2 .active__list__title {
+    right: 46%;
     margin-top: -1.72vw;
     margin-left: -46.25vw;
     margin-left: 9.5vw;
-  }*/
+  }
 
   .be-active__list__item2 .be-active__list__text {
     padding: 20.4vw 6.4vw 0 9.5vw;
