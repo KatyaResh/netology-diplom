@@ -713,7 +713,6 @@ header, section, footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-weight: bold;
     font-size: 90px;
     color: white;
     text-transform: uppercase;
@@ -726,6 +725,7 @@ header, section, footer {
 
   .header__title span {
     display: block;
+    font-weight: bold;
   }
 
   .header__title span span {
