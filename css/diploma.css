@@ -1067,7 +1067,7 @@ header, section, footer {
     margin: 0 auto 0 0;
   }
 
-  .footer .footer__buttons {
+  .footer .header__buttons {
     margin-top: 150px;
     margin-bottom: 200px;
   }
