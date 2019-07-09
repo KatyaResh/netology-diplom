@@ -702,7 +702,8 @@ header, section, footer {
   }
 
   .header {
-    padding-bottom: 10.8rem;
+    box-sizing: border-box;
+    padding: 40px 9.5vw 90px;
     background-image: url(../images/header_desktop.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -1007,14 +1008,14 @@ header, section, footer {
   .be-active__list__item3 .counter-block {
     margin-left: -11.2vw
   }
-
   /*Конец блока be active*/
 
-  /*Начало футера*/
   
+  /*Начало футера*/
   .footer {
     display: flex;
-    padding: 13rem 0 4rem;
+    box-sizing: border-box;
+    padding: 250px 9.5vw 50px;
     background-image: url(../images/footer_desktop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -1055,7 +1056,6 @@ header, section, footer {
   .footer__title {
     width: 100%;
     font-size: 7.7rem;
-    letter-spacing: 0.7rem;
     margin: 0 auto 0 0;
   }
 
@@ -1068,8 +1068,8 @@ header, section, footer {
   }
 
   .footer .header__buttons {
-    margin-top: 150px;
-    margin-bottom: 200px;
+    margin-top: 160px;
+    margin-bottom: 230px;
   }
   
   .footer button {
