@@ -57,7 +57,7 @@ header, section, footer {
   justify-content: center;
   font-weight: normal;
   font-size: 2.8rem;
-  color: white;
+  color: #ffffff;
   text-transform: uppercase;
   line-height: 1;
   margin: 296px 3.1vw 221px 0.8vw;
@@ -151,7 +151,13 @@ header, section, footer {
 
 .white .athlets__list__num,
 .white .players__list__num,
-.grey .athlets__list__num,
+.grey .athlets__list__num::after {
+  content: "";
+  border-bottom: 4px solid #5e42b0;
+  border-radius: 2px;
+  width: 25px;
+}
+
 .grey .players__list__num::after {
   content: "";
   border-bottom: 4px solid #5e42b0;
