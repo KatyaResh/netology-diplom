@@ -842,6 +842,7 @@ header, section, footer {
   .athlets .grey {
     padding-top: 3rem;
     padding-bottom: 2.2rem;
+    background-color: #f6f4fa;
   }
 
   .athlets .grey .athlets__list__title {
