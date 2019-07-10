@@ -116,16 +116,16 @@ header, section, footer {
   display: block;
 }
 
-.button__text {
-  padding-top: 0.75rem;
-}
-
 /*Конец хэдера*/
 
 /*Начало блоков Athlets и Players*/
 
 .athlets, .players {
   padding-top: 1rem;
+}
+
+.athlets__list__item, .players__list__item {
+  padding-bottom: 5rem;
 }
 
 .athlets__title, .players__title {
@@ -142,14 +142,21 @@ header, section, footer {
 }
 
 .athlets__list__num, .players__list__num {
+  display: inline-block;
   font-weight: 700;
   font-size: 1.5rem;
-  border-bottom: 4px solid #5e42b0;
-  display: inline-block;
-  border-radius: 2px;
+  /*border-bottom: 4px solid #5e42b0;
+  border-radius: 2px;*/
   margin-right: 0.5rem;
   margin-left: 2rem;
   vertical-align: text-bottom;
+}
+
+.athlets__list__num, .players__list__num::after {
+  content: "";
+  border-top: 4px solid #5e42b0;
+  border-radius: 2px;
+  width: 20px;
 }
 
 .athlets__list__title, .players__list__title {
@@ -167,14 +174,13 @@ header, section, footer {
   line-height: 1.9rem;
   letter-spacing: 0.08rem;
   text-align: left;
-  padding: 0 2rem 9.7rem;
   margin-bottom: 0;
 }
 
 .athlets .purple .athlets__list__text,
 .players .purple .players__list__text {
   color: #ffffff;
-  padding-bottom: 5.2rem;
+  /*padding-bottom: 5.2rem;*/
   margin-bottom: 0;
 }
 
@@ -432,6 +438,7 @@ header, section, footer {
     border-radius: 40px;
     padding: 2rem 6rem 2rem 6rem;
     font-size: 1.4rem;
+    align-items: center;
   }
  
   .header__button + .header__button {
@@ -443,10 +450,6 @@ header, section, footer {
     margin-left: 1rem;
     padding-left: 3.8rem;
     padding-top: 1.4rem;
-  }
-  
-  .button__google .button__text{
-    padding-top: 0.3rem;
   }
 
   .button__icon {
@@ -707,7 +710,6 @@ header, section, footer {
 
   .header__logo {
     width: 100%;
-    padding-right: 4rem;
   }
 
   .header__logo__icon {
@@ -724,7 +726,7 @@ header, section, footer {
     color: #ffffff;
     text-transform: uppercase;
     line-height: 1;
-    margin: 290px 3vw 220px 0.1vw;
+    margin: 290px auto 220px;
   }
 
   .header__title span {
@@ -757,13 +759,8 @@ header, section, footer {
   }
 
   .button__apple {
-    margin-left: -4rem;
     padding-left: 3.8rem;
     padding-top: 1.4rem;
-  }
-  
-  .button__google .button__text{
-    padding-top: 0.3rem;
   }
 
   .button__icon {
@@ -828,7 +825,6 @@ header, section, footer {
 
   .athlets__list__text {
     padding-right: 16rem;
-    margin-left: -2rem;
   }
 
   .athlets .white {
