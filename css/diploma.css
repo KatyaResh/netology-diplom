@@ -959,16 +959,32 @@ header, section, footer {
     font-size: 2.5rem;
   }
 
-  .be-active__list .active__not-reverse .be-active__list__text {
+  /*.active__not-reverse .be-active__list__text {
     padding: 22.4vw 9.4vw 0 6.5vw;
+  }*/
+
+  .not-reverse .be-active__list__text {
+    padding: 22.4vw 8.4vw 0 6vw;  
+    font-size: 2.65rem;
+    line-height: 2.6rem; 
   }
 
+  .not-reverse .be-active__list__title {
+    top: 66%;
+    margin-top: -14.11vw;
+    padding-left: 6.87vw;
+  }
+
+  .not-reverse .counter-block {
+    margin-left: -11.2vw
+  }
+  
   .be-active__list .reverse {
     display: flex;
     flex-direction: row-reverse;
   }
 
-  .be-active__list .reverse .be-active__list__title {
+  .reverse .be-active__list__title {
     display: flex;
     flex-direction: row-reverse;
     left: 0%;
@@ -976,31 +992,16 @@ header, section, footer {
     margin-left: 3vw;
   }
 
-  .be-active__list .reverse .be-active__list__text {
+  .reverse .be-active__list__text {
     padding: 22.4vw 6.4vw 0 9.5vw;
   }
 
-  .be-active__list .reverse .counter-block {
+  .reverse .counter-block {
     width: 8.75vw;
     height: 8.07vw;
     margin-left: 6vw;
   }
      
-  .be-active__list .not-reverse .be-active__list__text {
-    padding: 22.4vw 8.4vw 0 6vw;  
-    font-size: 2.65rem;
-    line-height: 2.6rem; 
-  }
-
-  .be-active__list .not-reverse .be-active__list__title {
-    top: 66%;
-    margin-top: -14.11vw;
-    padding-left: 6.87vw;
-  }
-
-  .be-active__list .not-reverse .counter-block {
-    margin-left: -11.2vw
-  }
   /*Конец блока be active*/
 
   
