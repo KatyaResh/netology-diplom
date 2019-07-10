@@ -156,7 +156,7 @@ header, section, footer {
   content: "";
   border-bottom: 4px solid #5e42b0;
   border-radius: 2px;
-  width: 20px;
+  width: 25px;
 }
 
 .purple .athlets__list__num,
@@ -164,7 +164,7 @@ header, section, footer {
   content: "";
   border-bottom: 4px solid #ffffff;
   border-radius: 2px;
-  width: 20px;
+  width: 25px;
 }
 
 .athlets__list__title, .players__list__title {
