@@ -795,13 +795,14 @@ header, section, footer {
 
   .athlets__list__item {
     padding-left: calc(50% + 2vw);
+    padding-top: 3.7rem;
   }
 
   .athlets__list__num, .players__list__num {
     font-size: 2rem;
     margin-left: 0;
     margin-right: 1rem;
-    margin-top: 3.7rem; 
+    /*margin-top: 3.7rem;*/ 
   }
 
   .athlets__list__title, .players__list__title {
@@ -809,7 +810,7 @@ header, section, footer {
     letter-spacing: 0.3rem; 
     margin-left: 0;
     margin-right: auto;
-    margin-top: 3.7rem; 
+    /*margin-top: 3.7rem;*/ 
   }
 
   .athlets__list__text, .players__list__text {
