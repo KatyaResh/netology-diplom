@@ -778,6 +778,9 @@ header, section, footer {
   
 /*Начало блоков athlets, players*/
   .athlets, .players {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     position: relative;
     padding-top: 8rem;
   }
