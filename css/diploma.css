@@ -979,8 +979,9 @@ header, section, footer {
     margin-left: -11.2vw
   }
   
-  .reverse {
+  .be-active__list .reverse {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row-reverse;
   }
 
