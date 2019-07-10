@@ -171,32 +171,32 @@ header, section, footer {
   margin-bottom: 0;
 }
 
-.athlets__list__item3 .athlets__list__text,
-.players__list__item3 .players__list__text {
+.athlets .purple .athlets__list__text,
+.players .purple .players__list__text {
   color: #ffffff;
   padding-bottom: 5.2rem;
   margin-bottom: 0;
 }
 
-.athlets__list__item1 {
+.athlets__list__item .white {
   padding-top: 1.5rem;
 }
 
-.athlets__list__item2 {
+.athlets__list__item .grey {
   background-color: #f6f4fa;
 }
 
-.athlets__list__item2 .athlets__list__text {
+.athlets .grey .athlets__list__text {
   padding-bottom: 5.1rem;
 }
 
-.athlets__list__item3 {
+.athlets .purple {
   background-color: #5e42b0;
   padding-top: 4.8rem;
   margin-bottom: 0;
 }
 
-.athlets__list__item3 .athlets__list__num {
+.athlets .purple .athlets__list__num {
   border-bottom: 4px solid #ffffff;
 }
 
@@ -214,27 +214,27 @@ header, section, footer {
   margin-top: 4rem;
 }
 
-.players__list__item2 {
+.players .grey {
   background-color: #f5f6f7;
 }
 
-.players__list__item_2 .players__list__text {
+.players .grey .players__list__text {
   letter-spacing: 0.07rem;
   padding-bottom: 5.2rem;
 }
 
-.players__list__item3 {
+.players .purple {
   background-color: #0a0e34;
   padding-top: 4.4rem;
 }
 
-.players__list__item3 .players__list__num {
+.players .purple .players__list__num {
   color: #684fb3;
   border-bottom: 4px solid #ffffff;
   border-radius: 2px;
 }
 
-.players__list__item3 .players__list__text {
+.players .purple .players__list__text {
   padding-bottom: 5.5rem;
 }
 
@@ -312,7 +312,6 @@ header, section, footer {
     text-align: center;
     text-transform: uppercase;
     padding: 10rem 6.25vw 0.5rem;
-    
   }
 
   .footer__head {
@@ -502,32 +501,32 @@ header, section, footer {
     line-height: 2.3rem;
   }
 
-  .athlets__list__item1 {
+  .athlets .white {
     padding-top: 3rem;
   }
 
-  .athlets__list__item1 .athlets__list__text {
+  .athlets .white .athlets__list__text {
     padding-bottom: 3.7rem;
   }
  
-  .athlets__list__item2 {
+  .athlets .grey {
     padding-top: 3rem;
   }
 
-  .athlets__list__item2 .athlets__list__text {
+  .athlets .grey .athlets__list__text {
     padding-bottom: 3.1rem;
     line-height: 2.8rem;
   }
 
-  .athlets__list__item2 .athlets__list__num {
+  .athlets .grey .athlets__list__num {
     margin-bottom: 0;
   }
  
-  .athlets__list__item3 {
+  .athlets .purple {
     padding-top: 3.5rem;
   }
 
-  .athlets__list__item3 .athlets__list__text {
+  .athlets .purple .athlets__list__text {
     padding-bottom: 3.7rem;
     letter-spacing: 0.05rem;
   }
@@ -552,25 +551,25 @@ header, section, footer {
     padding-left: 1rem;
   }
 
-  .players__list__item1 .players__list__text {
+  .players .white .players__list__text {
     padding-bottom: 2.3rem;
   }
 
-  .players__list__item2 {
+  .players .grey {
     padding-top: 3.3rem;
   }
 
-  .players__list__item2 .players__list__text {
+  .players .grey .players__list__text {
     padding-bottom: 3.5rem;
     margin-top: 1.7rem;
     line-height: 2.6rem;
   }
 
-  .players__list__item3 {
+  .players .purple {
     padding-top: 3.4rem;
   }
 
-  .players__list__item3 .players__list__text {
+  .players .purple .players__list__text {
     padding-bottom: 3.7rem;
     letter-spacing: 0.1rem;
     font-size: 1.85rem;
@@ -607,16 +606,13 @@ header, section, footer {
     font-size: 2.5rem;
   }
 
-  .active__list__item2 .active__list__title,
-  .active__list__item3 .active__list__title {
+  .be-active__list .reverse .active__list__title,
+  .be-active__list .not-reverse .active__list__title {
     margin-top: -9.1rem;
   }
 
-  .active__list__item3 .active__list__text {
+  .be-active__list .not-reverse .active__list__text {
     margin-bottom: 10.8rem; 
-  }
-     
-  .active__list__item3 .active__list__text {
     font-size: 2.65rem;
     line-height: 2.8rem;
     padding-bottom: 1.2rem;
@@ -783,10 +779,6 @@ header, section, footer {
 
   .athlets, .players {
     position: relative;
-    /*display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    overflow: hidden;*/
     padding-top: 8rem;
   }
 
@@ -839,38 +831,38 @@ header, section, footer {
     margin-left: -2rem;
   }
 
-  .athlets__list__item1 {
+  .athlets .white {
     padding-top: 7.5rem;
   }
 
-  .athlets__list__item1 .athlets__list__text {
+  .athlets .white .athlets__list__text {
     padding-bottom: 7rem;
   }
  
-  .athlets__list__item2 {
+  .athlets .grey {
     padding-top: 3rem;
     padding-bottom: 2.2rem;
   }
 
-  .athlets__list__item2 .athlets__list__title {
+  .athlets .grey .athlets__list__title {
     letter-spacing: 0.25rem;
   }
 
-  .athlets__list__item2 .athlets__list__text {
+  .athlets .grey .athlets__list__text {
     padding-bottom: 3.1rem;
     line-height: 2.8rem;
   }
 
-  .athlets__list__item2 .athlets__list__num {
+  .athlets .grey .athlets__list__num {
     margin-bottom: 0;
   }
  
-  .athlets__list__item3 {
+  .athlets .purple {
     padding-top: 5rem;
     padding-bottom: 2.6rem;
   }
 
-  .athlets__list__item3 .athlets__list__text {
+  .athlets .purple .athlets__list__text {
     padding-bottom: 3.7rem;
     letter-spacing: 0.05rem;
   }
@@ -895,26 +887,26 @@ header, section, footer {
     padding-left: 8.9vw;
   }
 
-  .players__list__item1 .players__list__text {
+  .players .white .players__list__text {
     padding-bottom: 4rem;
     line-height: 2.5rem;
   }
 
-  .players__list__item2 {
+  .players .grey {
     padding-top: 4.1rem;
   }
 
-  .players__list__item2 .players__list__text {
+  .players .grey .players__list__text {
     padding-bottom: 8.3rem;
     margin-top: 2.7rem;
     line-height: 2.6rem;
   }
 
-  .players__list__item3 {
+  .players .purple {
     padding-top: 4.9rem;
   }
 
-  .players__list__item3 .players__list__text {
+  .players .purple .players__list__text {
     padding-bottom: 5.5rem;
     letter-spacing: 0.1rem;
     font-size: 1.85rem;
@@ -967,48 +959,46 @@ header, section, footer {
     font-size: 2.5rem;
   }
 
-  .be-active__list__item1 .be-active__list__text {
+  .be-active__list .active__not-reverse .be-active__list__text {
     padding: 22.4vw 9.4vw 0 6.5vw;
   }
 
-  .be-active__list__item2 {
+  .be-active__list .reverse {
     display: flex;
     flex-direction: row-reverse;
   }
 
-  .be-active__list__item2 .be-active__list__title {
+  .be-active__list .reverse .be-active__list__title {
     display: flex;
     flex-direction: row-reverse;
     left: 0%;
-    /*right: 46%;
-    margin-left: -46.25vw;*/
     margin-top: -1.72vw;
     margin-left: 3vw;
   }
 
-  .be-active__list__item2 .be-active__list__text {
+  .be-active__list .reverse .be-active__list__text {
     padding: 22.4vw 6.4vw 0 9.5vw;
   }
 
-  .be-active__list__item2 .counter-block {
+  .be-active__list .reverse .counter-block {
     width: 8.75vw;
     height: 8.07vw;
     margin-left: 6vw;
   }
      
-  .be-active__list__item3 .be-active__list__text {
+  .be-active__list .not-reverse .be-active__list__text {
     padding: 22.4vw 8.4vw 0 6vw;  
     font-size: 2.65rem;
     line-height: 2.6rem; 
   }
 
-  .be-active__list__item3 .be-active__list__title {
+  .be-active__list .not-reverse .be-active__list__title {
     top: 66%;
     margin-top: -14.11vw;
     padding-left: 6.87vw;
   }
 
-  .be-active__list__item3 .counter-block {
+  .be-active__list .not-reverse .counter-block {
     margin-left: -11.2vw
   }
   /*Конец блока be active*/
