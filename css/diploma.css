@@ -383,7 +383,7 @@ header, section, footer {
     display: block;
     width: 13.5rem;
     height: 3.5rem;
-    margin: 8.5rem auto 0 auto;
+    margin: 8.5rem auto 0;
     padding-bottom: 1rem;
   }
 
@@ -1031,7 +1031,7 @@ header, section, footer {
   .footer__logo {
     width: 21rem;
     height: 4.5rem;
-    margin: 13% 28% 4% 28%;
+    margin: 13% 28% 4%;
   }
 /*Конец футера*/
 }
