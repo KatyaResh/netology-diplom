@@ -801,13 +801,13 @@ header, section, footer {
 
   .athlets__list__item {
     padding-left: calc(50% + 2vw);
-    padding-top: 3.7rem;
-    padding-bottom: 3.7rem;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
   }
   
   .players__list__item {
-    padding-top: 3.7rem;
-    padding-bottom: 3.7rem;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
   }
 
   .athlets__list__num, .players__list__num {
@@ -856,7 +856,6 @@ header, section, footer {
 
   .players__title__position {
     padding-left: 9.6vw;
-    margin-bottom: 0;
   }
 
   .players__list {
